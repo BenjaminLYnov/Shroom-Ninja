@@ -8,3 +8,5 @@ To able launch the game
 Double click on Shroom-Ninja.py or in command line : python <PATH>/Shroom-Ninja.py
 
 /!\ Set your volume at 30 or below
+
+* Dont work on some OS version * :/   Problem about load some songs
