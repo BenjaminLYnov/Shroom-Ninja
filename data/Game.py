@@ -22,8 +22,7 @@ class Game:
         # Make the game window
         self.height = 1080
         self.width = 1920
-        self.screen = pygame.display.set_mode(
-            (self.width, self.height), pygame.FULLSCREEN)
+        self.screen = pygame.display.set_mode((self.width, self.height), pygame.FULLSCREEN)
         # self.screen = pygame.display.set_mode((self.width, self.height))
         pygame.display.set_caption('Shroom Ninja')
 
@@ -84,8 +83,6 @@ class Game:
         if self.isStarted == True and self.isPause == False and self.gameplay.player.hp > 0:
             if self.mainThemeOnceTime == True:
                 self.mainThemeOnceTime = False
-                pygame.mixer.music.load("resources/sound/Outset Island - The Legend of Zelda- The Wind Waker HD.ogg")
-                pygame.mixer.music.play(-1)
             self.gameplay.gear()
             self.gameplay.display(self.screen)
 

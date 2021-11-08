@@ -29,6 +29,8 @@ class Tornade():
 
         self.tornadeSound = pygame.mixer.Sound(
             'resources/sound/tornade/tornade.wav')
+        # self.tornadeSound = pygame.mixer.Sound(
+        #     'resources/sound/yasuoSound/hasagi.wav')
         self.hasagiSound = pygame.mixer.Sound(
             'resources/sound/yasuoSound/hasagi.wav')
 
